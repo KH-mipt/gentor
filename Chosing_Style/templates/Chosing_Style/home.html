@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<div class="container">
+    <a href="{% url 'page_1' %}"> <img src="{% static 'img/1.jpg' %}"> </a>
+    <a href="{% url 'page_2' %}"> <img src="{% static 'img/2.jpg' %}"> </a>
+    <a href="{% url 'page_3' %}"> <img src="{% static 'img/3.jpg' %}"> </a>
+</div>
+
+{% endblock %}

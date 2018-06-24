@@ -1,0 +1,18 @@
+/* стиль для отрисовки картинок вряд */
+.general-container{
+    height:80%;
+    width:100%;
+    position: absolute;
+    background-color: #c7b39b;
+    }
+.container {
+    height:100%;
+    width:100%;
+    text-align:center;
+	}
+.container img {
+    margin-top:80px;
+    width:30%;
+	padding: 15px; /* Расстояние от картинки до рамки */
+	background: #600; /* Цвет фона */
+	}

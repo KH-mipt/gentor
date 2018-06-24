@@ -1,0 +1,21 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="{% static 'css/Chosing_Style.css' %}">
+    <meta charset="UTF-8">
+    <title>Gentor Community</title>
+</head>
+<body>
+    {% include 'navbar.html' %}
+
+    <div class="general-container">
+        {% block content %}
+        {% endblock content %}
+    </div>
+
+    {% include 'footer.html' %}
+</body>
+</html>
